@@ -1,0 +1,45 @@
+.App-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    color: white;
+    padding: 15px 45px;
+    background: #353535;
+    border-bottom: 2px solid white;
+}
+.logo {
+    cursor: pointer;
+}
+.menu {
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu>div {
+    cursor: pointer;
+    transition: 0.15s;
+    padding-bottom: 3px;
+    border: none;
+    border-bottom: 1px solid transparent;
+}
+.menu>div:hover {
+    border: none;
+    border-bottom: 1px solid white;
+}
+.menu>div i {
+    margin-left: 5px;
+}
+.basket {
+    position: relative;
+}
+.itemsCounter {
+    position: absolute;
+    top: -12px;
+    right: -15px;
+    font-size: 14px;
+    color: white;
+}

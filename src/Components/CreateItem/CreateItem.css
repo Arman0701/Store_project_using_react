@@ -1,0 +1,74 @@
+.pageItem {
+    margin: 15px 0;
+    width: 25.5%;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 12px;
+    text-align: center;
+}
+.itemImage {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 12px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pageItem .title,
+.pageItem .description,
+.pageItem .price,
+.pageItem .rating {
+    color: white;
+    margin-bottom: 4px;
+}
+.pageItem .description i {
+    margin-left: 5px;
+    transform: translateY(1px);
+}
+.productCounter {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+.fa-minus, 
+.fa-plus,
+.addButton, .removeButton {
+    color: white;
+    padding: 6px 7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.fa-minus:hover,
+.fa-plus:hover,
+.addButton:hover {
+    color: #353535;
+    background: white;
+}
+.removeButton:hover {
+    color: white;
+    background: crimson;
+    border-color: crimson;
+}
+.addButton, .removeButton {
+    width: 45%;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0 auto;
+}
+.addButton i, .removeButton i {
+    margin-left: 5px;
+}
+.count {
+    color: white;
+    padding: 0 7px 5px 7px;
+    border-bottom: 1px solid white;
+}

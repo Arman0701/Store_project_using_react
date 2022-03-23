@@ -1,0 +1,38 @@
+.basketWindow {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+.basketHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 45px;
+    font-size: 22px;
+    color: white;
+    border-bottom: 2px  solid white;
+    background: #353535;
+}
+.basketHeader i {
+    transition: 0.15s;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 8px;
+    background: transparent;
+}
+.basketHeader i:hover {
+    background: rgba(255,255,255,0.4);
+}
+.basketHeader .title {
+    text-decoration: underline;
+}
+.basketItems {
+    color: white; 
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #353535;
+
+}
